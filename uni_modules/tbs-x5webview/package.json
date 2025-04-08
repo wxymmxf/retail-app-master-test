@@ -1,0 +1,88 @@
+{
+  "id": "tbs-x5webview",
+  "displayName": "腾讯X5浏览器内核离线加载插件",
+  "version": "1.0.5",
+  "description": "TbsX5webviewUTS插件封装腾讯x5webview离线内核加载模块，可以把uniapp的浏览器内核直接替换成Android X5 Webview(腾讯TBS)最新内核，提高交互体验和流畅度。",
+  "keywords": [
+    "腾讯x5内核",
+    "TBS",
+    "x5",
+    "webview"
+],
+  "repository": "",
+  "engines": {
+    "HBuilderX": "^4.0"
+  },
+  "dcloudext": {
+    "type": "uts",
+    "sale": {
+      "regular": {
+        "price": "99.00"
+      },
+      "sourcecode": {
+        "price": "299.00"
+      }
+    },
+    "contact": {
+      "qq": "simgsg"
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "无",
+      "permissions": "<uses-permission android:name=\"android.permission.INTERNET\" />\n<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y",
+        "alipay": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+            "app-android": {
+                "minVersion": "21"
+            },
+            "app-ios": "u",
+            "app-harmony": "y"
+        },
+        "H5-mobile": {
+          "Safari": "u",
+          "Android Browser": "u",
+          "微信浏览器(Android)": "u",
+          "QQ浏览器(Android)": "u"
+        },
+        "H5-pc": {
+          "Chrome": "u",
+          "IE": "u",
+          "Edge": "u",
+          "Firefox": "u",
+          "Safari": "u"
+        },
+        "小程序": {
+          "微信": "u",
+          "阿里": "u",
+          "百度": "u",
+          "字节跳动": "u",
+          "QQ": "u",
+          "钉钉": "u",
+          "快手": "u",
+          "飞书": "u",
+          "京东": "u"
+        },
+        "快应用": {
+          "华为": "u",
+          "联盟": "u"
+        }
+      }
+    }
+  }
+}
