@@ -13,8 +13,13 @@ app.$mount()
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
+import { requestInterceptor } from './interceptors/request'
+import store from './store'
+
 export function createApp() {
   const app = createSSRApp(App)
+  app.use(store)
+  app.use(requestInterceptor)
   return {
     app
   }
